@@ -21,5 +21,5 @@ class Pedido{
 
 }
 ```
-![UML] (./lib/Recursos/MinidartProj.jpeg)
+![UML](/lib/Recursos/MinidartProj.jpeg)
 
