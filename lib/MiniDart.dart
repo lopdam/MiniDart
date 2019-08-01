@@ -4,5 +4,5 @@
 library MiniDart;
 
 
-export 'src/main.dart';
+export 'package:MiniDart/src/main.dart';
 

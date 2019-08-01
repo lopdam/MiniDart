@@ -1,6 +1,8 @@
-import 'package:MiniDart/MiniDart.dart';
+import 'package:MiniDart/src/Persona.dart';
+
 void main(){
 
-
-  print("Hello World");
+  Persona persona=new Persona("0907766567","Pablo","045065789","Mapasingue Oeste");
+  print(persona);
+  
 }
