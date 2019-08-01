@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acc6ef87-30b8-4ce4-9ea4-ae1dd6cc737b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/src/Cliente.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/Persona.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/ProveedorPFisica.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/ProveedorPJuridica.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/Detalle.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/Pedido.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/Producto.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/MiniDart.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/MiniDart.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main.dart" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
