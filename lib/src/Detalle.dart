@@ -2,11 +2,14 @@ import 'package:MiniDart/src/Producto.dart';
 
 class Detalle{
 
-  Prodcuto _prodcuto;
+  Producto _producto;
   int _cantidad;
   double _precio;
 
-  Detalle(this._prodcuto,this._cantidad,this._precio);
+  Detalle(this._producto,this._cantidad){
+
+   _precio=_producto.precio*_cantidad;
+  }
 
   double get precio => _precio;
 
@@ -20,15 +23,15 @@ class Detalle{
     _cantidad = value;
   }
 
-  Prodcuto get prodcuto => _prodcuto;
+  Producto get producto => _producto;
 
-  set prodcuto(Prodcuto value) {
-    _prodcuto = value;
+  set prodcuto(Producto value) {
+    _producto = value;
   }
 
   @override
   String toString() {
-    return 'Detalle{_prodcuto: ${_prodcuto.toString()}, _cantidad: $_cantidad, _precio: $_precio}';
+    return 'Detalle{_prodcuto: ${_producto.toString()}, _cantidad: $_cantidad, _precio: $_precio}';
   }
 
 

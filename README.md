@@ -1,8 +1,6 @@
-A library for Dart developers.
+## Mini Sistema de Pedidos y Productos
 
-Created from templates made available by Stagehand under a BSD-style
-
-Sistema de Manejo de Productos/Pedidos:
+### Cliente/Detalle/Pedido
 
 ```dart
 class Pedido{
@@ -17,6 +15,21 @@ class Pedido{
     _fecha=DateTime.now();
     _lineaDetalle=new List<Detalle>();
     _total=0.0;
+  }
+
+
+  void addDetalle(Detalle detalle){
+
+    _lineaDetalle.add(detalle);
+    _total+=detalle.precio;
+
+  }
+
+  double get total=>_total;
+
+  @override
+  String toString() {
+    return 'Pedido{_cliente: ${_cliente.identificacion},${_cliente.nombre},${_cliente.canton},_fecha: $_fecha, _total: $_total}';
   }
 
 }

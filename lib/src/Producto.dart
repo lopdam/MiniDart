@@ -1,16 +1,14 @@
-class Prodcuto{
+class Producto{
   int _codigo;
   String _descripcion;
-  double _precioOrganico;
-  double _precioNoOrganico;
+  double _precio;
   String _tipo;
 
-  Prodcuto(this._codigo,this._descripcion,this._precioNoOrganico,this._precioOrganico,this._tipo);
+  Producto(this._codigo,this._descripcion,this._precio,this._tipo);
 
   int get codigo=>_codigo;
   String get descripcion=>_descripcion;
-  double get precioOrganico=>_precioOrganico;
-  double get precioNoOrganico=>_precioNoOrganico;
+  double get precio=>_precio;
   String get tipo=>_tipo;
 
   set codigo(int codigo){
@@ -21,13 +19,10 @@ class Prodcuto{
     _descripcion=descripcion;
   }
 
-  set precioOrganico(double precioOrganico){
-    _precioOrganico=precioOrganico;
+  set precio(double precio){
+    _precio=precio;
   }
 
-  set precioNoOrganico(double precioNoOrganico){
-    _precioNoOrganico=precioNoOrganico;
-  }
 
   set tipo(String tipo){
     _tipo=tipo;
@@ -35,7 +30,7 @@ class Prodcuto{
 
   @override
   String toString() {
-    return 'Prodcuto{_codigo: $_codigo, _descripcion: $_descripcion, _precioOrganico: $_precioOrganico, _precioNoOrganico: $_precioNoOrganico, _tipo: $_tipo}';
+    return 'Prodcuto{_codigo: $_codigo, _descripcion: $_descripcion, _precioOrganico: $_precio, _tipo: $_tipo}';
   }
 
 

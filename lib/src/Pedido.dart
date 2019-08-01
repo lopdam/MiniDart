@@ -15,4 +15,19 @@ class Pedido{
     _total=0.0;
   }
 
+
+  void addDetalle(Detalle detalle){
+
+    _lineaDetalle.add(detalle);
+    _total+=detalle.precio;
+
+  }
+
+  double get total=>_total;
+
+  @override
+  String toString() {
+    return 'Pedido{_cliente: ${_cliente.identificacion},${_cliente.nombre},${_cliente.canton},_fecha: $_fecha, _total: $_total}';
+  }
+
 }
