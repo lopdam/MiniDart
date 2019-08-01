@@ -1,17 +1,17 @@
 class Producto{
-  int _codigo;
+  String _codigo;
   String _descripcion;
   double _precio;
   String _tipo;
 
   Producto(this._codigo,this._descripcion,this._precio,this._tipo);
 
-  int get codigo=>_codigo;
+  String get codigo=>_codigo;
   String get descripcion=>_descripcion;
   double get precio=>_precio;
   String get tipo=>_tipo;
 
-  set codigo(int codigo){
+  set codigo(String codigo){
     _codigo=codigo;
   }
 
