@@ -1,22 +1,25 @@
 A library for Dart developers.
 
 Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
 
-## Usage
-
-A simple usage example:
+Sistema de Manejo de Productos/Pedidos:
 
 ```dart
-import 'package:MiniDart/MiniDart.dart';
+class Pedido{
 
-main() {
-  var awesome = new Awesome();
+  Cliente _cliente;
+  DateTime _fecha;
+  List<Detalle> _lineaDetalle;
+  double _total;
+
+
+  Pedido(this._cliente){
+    _fecha=DateTime.now();
+    _lineaDetalle=new List<Detalle>();
+    _total=0.0;
+  }
+
 }
 ```
+![UML] (./lib/Recursos/MinidartProj.jpeg)
 
-## Features and bugs
-
-Please file feature requests and bugs at the [issue tracker][tracker].
-
-[tracker]: http://example.com/issues/replaceme
